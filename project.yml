@@ -2,14 +2,14 @@ name: ParkingApp
 options:
   bundleIdPrefix: com.uzorcic
   deploymentTarget:
-    iOS: "16.0"
+    iOS: "17.0"
   xcodeVersion: "15.0"
 
 targets:
   ParkingApp:
     type: application
     platform: iOS
-    deploymentTarget: "16.0"
+    deploymentTarget: "17.0"
     sources:
       - path: ParkingApp
     info:
@@ -28,7 +28,7 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.uzorcic.ParkingApp
         SWIFT_VERSION: "5.9"
-        IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
         TARGETED_DEVICE_FAMILY: "1,2"
         INFOPLIST_FILE: ParkingApp/Info.plist
         MARKETING_VERSION: "1.0.0"
