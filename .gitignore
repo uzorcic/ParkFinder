@@ -1,0 +1,15 @@
+# Xcode generated (created by XcodeGen on CI)
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+build/
+
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/

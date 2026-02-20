@@ -1,0 +1,35 @@
+name: ParkingApp
+options:
+  bundleIdPrefix: com.uzorcic
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15.0"
+
+targets:
+  ParkingApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: ParkingApp
+    info:
+      path: ParkingApp/Info.plist
+      properties:
+        NSLocationWhenInUseUsageDescription: "ParkFinder uses your location to show nearby parking spaces on the map."
+        NSLocationAlwaysAndWhenInUseUsageDescription: "ParkFinder uses your location to show nearby parking spaces on the map."
+        UILaunchStoryboardName: ""
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.uzorcic.ParkingApp
+        SWIFT_VERSION: "5.9"
+        IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        INFOPLIST_FILE: ParkingApp/Info.plist
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
