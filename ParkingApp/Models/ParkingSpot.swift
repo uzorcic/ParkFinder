@@ -10,7 +10,7 @@ struct ParkingSpot: Identifiable {
     let fee: Bool?
     let access: String?
 
-    enum ParkingType: String {
+    enum ParkingType: String, CaseIterable {
         case surface = "Surface"
         case underground = "Underground"
         case multistorey = "Multi-Storey"

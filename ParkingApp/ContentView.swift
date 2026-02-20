@@ -187,4 +187,3 @@ struct LegendBadge: View {
     }
 }
 
-extension ParkingSpot.ParkingType: CaseIterable {}
